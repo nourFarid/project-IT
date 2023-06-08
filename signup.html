@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="signup-style1.css" type="text/css" id="theme-changer" rel="stylesheet" />
+    <title>sign up</title>
+  </head>
+  <body>
+
+    <div class="header" id="header">
+      <h1>future cars</h1>
+      <p>fast cars for fast arrival</p>
+    </div>
+  
+    <div class="navbar" id="navbar">
+      <a href="http://127.0.0.1:5500/index.html">Home</a>
+      <a href="http://127.0.0.1:5500/news.html">News</a>
+      <a href="http://127.0.0.1:5500/ourcars.html">our cars</a>
+      <div class="dropdown">
+        <button class="dropbtn">services 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="http://127.0.0.1:5500/howtochooseyourcar.html">how to choose</a>
+          <a href="http://127.0.0.1:5500/simulation.html">simulation</a>
+          <a href="http://127.0.0.1:5500/treatments.html">buy !</a>
+          <a href="http://127.0.0.1:5500/comparison.html">compare</a>
+        </div>
+      </div> 
+      <script>
+        var style_name = 'signup-style';
+      </script>
+      <button id="dark-light-btn" onclick="change_theme(style_name)">theme 2</button>    </div>
+
+    <h2>sign up</h2>
+    <!-- <img class="img" scr height="100%" width="100%"> -->
+    <form action="submit">
+      <div class="singup_form">
+        <div class="label">Your name</div>
+        <input class="inputf" type="text" required />
+        <div class="label">Email</div>
+        <input class="inputf" type="email" required />
+        <div class="label">Password</div>
+        <input class="inputf" type="password" required />
+        <div class="label">Re-enter Password</div>
+        <input class="inputf" type="password" required />
+        <br />
+        <p>By clicking the sign up button,you agree to our condition</p>
+        <div class="divbtn">
+          <button class="formbtn">Sign up</button>
+        </div>
+      </div>
+    </form>
+    
+    <footer id="footer">
+      <div class="foot-row">
+        <div class="foot-col1">
+          <h4>Copyright © Your Website 2021</h4>
+        </div>
+        <div class="foot-col2">
+          <a href="https://www.facebook.com/"><img src="facebookpng.png"></a>
+          <a href="https://www.instagram.com/"><img src="Instagram.png"></a>
+          <a href="https://twitter.com/home"><img src="twitter.png"></a>
+        </div>
+        <div class="foot-col3">
+          <a href="http://127.0.0.1:5500/aboutus.html">about us</a>
+      <a href="http://127.0.0.1:5500/feedback.html">feed back</a>
+      <a href="http://127.0.0.1:5500/signup.html">sign up</a>
+        </div>
+      </div>
+      </footer>
+  
+    <script src="script.js"></script>
+  </body>
+  <script>"use strict";
+
+    const btn = document.querySelector(".formbtn");
+    const inputs = document.querySelectorAll(".inputf");
+    
+    function isEmpty() {
+      let allEmpty = false;
+      inputs.forEach(function (val) {
+        //console.log(val.value);
+        if (val.value === "") {
+          allEmpty = true;
+          return true; // we've found a non-empty one, so stop iterating
+        }
+      });
+    
+      return allEmpty;
+    }
+    
+    btn.addEventListener("click", function (e) {
+      //e.preventDefault();
+      if (!isEmpty()) {
+        e.preventDefault();
+        location.href = "https://ahmedezzat74.github.io/cars/";
+      }
+    });
+    </script>
+</html>

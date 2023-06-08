@@ -1,0 +1,205 @@
+body {
+  /* background: white; */
+  margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #32345a;
+  color: white;
+  height: 200px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #32345a94;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content {
+  background-image: url("step12.jpeg");
+  background-size: cover;
+  margin: 0;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.comparison-form {
+  width: 400px; /*edit*/
+  margin-top: 265px;
+  margin-bottom: 100px;
+  margin-right: 900px;
+  margin-left: 150px;
+  border-radius: 15px;
+  background: rgb(12 11 11/70%);
+  padding: 10px;
+  display: inline-block;
+}
+.h1 {
+  font-family: "Lobster", Sans-serif;
+  color: white;
+  background: rgb(19 17 17/70%);
+  text-align: center;
+  font-size: 70%;
+  border-radius: 12px;
+  width: 300px;
+  padding: 5px; /**/
+  position: absolute;
+  margin-top: -110px;
+  margin-left: -70px;
+}
+/*add*/
+label {
+  padding: 10px;
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+/*add*/
+input[type="text"],
+select {
+  width: 98%; /*edit*/
+  padding: 7px 14px; /*edit*/
+  margin: 9px 9px; /*edit*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.comparison {
+  width: 400px; /*edit*/
+  position: absolute;
+  top: 79%;
+  left: 60%;
+  margin-left: 10px;
+  right: 8%;
+  border-radius: 15px;
+  background: rgb(12 11 11/70%);
+  padding: 10px;
+  display: inline-block;
+}
+.submit {
+  position: absolute;
+  top: 130%;
+  left: 47%;
+}
+input[type="submit"] {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background: #468197;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #32345a94;
+}
+
+.foot-row {
+  padding: 10px 20px 5px 20px;
+  width: 100%;
+}
+
+.foot-col1,
+.foot-col2,
+.foot-col3 {
+  flex: 30%;
+  display: inline-block;
+}
+
+.foot-col2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.foot-col3 a {
+  color: white;
+  text-align: center;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.foot-col1 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col2 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col3 {
+  margin-left: 120px;
+  margin-right: 120px;
+}

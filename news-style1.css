@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #32345a;
+  color: white;
+  height: 200px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #32345a94;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content {
+  background-color: #3e4064;
+  margin: 0;
+  padding: 1px;
+}
+p {
+  color: rgb(202, 202, 202);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content img {
+  width: 49%;
+  height: 328px;
+  padding: 0;
+}
+
+p.car-info {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 2px 16px;
+}
+
+p.car-info::selection {
+  color: #1abc9c;
+  background-color: rgb(255, 199, 227);
+}
+
+a {
+  color: rgb(143, 0, 143);
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+  flex: 70%;
+  background-color: #3e4064;
+  padding: 20px;
+  height: auto;
+  margin: 10px 50px 10px 50px;
+  width: 91%;
+}
+
+#content {
+  margin: 0;
+  padding: 1px;
+  background-color: #fff;
+}
+div.content a:hover {
+  color: red;
+}
+/* div.content a:visited{
+  color: hotpink;
+} */
+div.content a:active {
+  color: green;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #32345a94;
+}
+
+.foot-row {
+  padding: 10px 20px 5px 20px;
+  width: 100%;
+}
+
+.foot-col1,
+.foot-col2,
+.foot-col3 {
+  flex: 30%;
+  display: inline-block;
+}
+
+.foot-col2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.foot-col3 a {
+  color: white;
+  text-align: center;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.foot-col1 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col2 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col3 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.name {
+  background-color: #1abc9c;
+  position: fixed;
+  width: 231px;
+  border: 2px rgb(165, 165, 165) solid;
+  top: 853px;
+  left: 1400px;
+}
+div .name p {
+  color: rgb(228, 228, 228);
+}

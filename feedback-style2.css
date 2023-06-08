@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #418c94;
+  color: white;
+  height: 200px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #a6dcef;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000000;
+}
+.content {
+  margin: 0px;
+  padding: 1px;
+  background: linear-gradient(35deg, #183946, #68c4c7);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  height: 662px;
+  width: 700px;
+  margin: 20px 400px;
+  background: linear-gradient(35deg, #68c4c7, #183946);
+  box-shadow: 0 0 100px 50px #ebcfc47c;
+  border-radius: 10px;
+  overflow: hidden;
+  left: -94px;
+}
+.form {
+  margin: 38px;
+}
+.user input {
+  width: 368px;
+  height: 34px;
+  margin: 6px;
+  border: 0.5px solid black;
+  font-size: 17px;
+}
+.user-name input {
+  width: 368px;
+  height: 34px;
+  margin: 6px;
+  border: 0.5px solid black;
+  font-size: 17px;
+}
+.user input::placeholder,
+.user-name input::placeholder,
+textarea::placeholder {
+  color: rgb(133, 133, 133);
+}
+textarea {
+  width: 369px;
+  height: 200px;
+  resize: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+.submit {
+  margin: 10px;
+}
+.submit input {
+  font-size: 20px;
+  border-radius: 50px;
+  width: 181px;
+  height: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: black 2px solid;
+  margin: 155px;
+}
+.submit input:active {
+  background: #c29ba3;
+  border-color: cornsilk;
+}
+.rate {
+  display: flex;
+  position: absolute;
+  margin-left: 140px;
+}
+.rate input {
+  display: none;
+}
+.rate label img {
+  width: 50px;
+  margin: 40px;
+  margin-left: 5px;
+}
+.rate label {
+  cursor: pointer;
+  height: 120px;
+  text-align: center;
+}
+
+.rate input:hover label,
+.rate input:checked label {
+  opacity: 1;
+  width: 100px;
+}
+.rate label p {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  padding-top: 0px;
+  transform: translateY(-50px) scale(0);
+  padding-top: 0px;
+  transition: 0.7s;
+  margin: -18px;
+}
+
+.rate input:hover + label p,
+.rate input:checked + label p {
+  transform: translateY(0) scale(1);
+}
+
+.name {
+  background-color: transparent;
+  width: 231px;
+  position: relative;
+  left: -362px;
+  top: 422px;
+  border: 1px white solid;
+}
+
+div.name p {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #a6dcef;
+}
+
+.foot-row {
+  padding: 10px 20px 5px 20px;
+  width: 100%;
+}
+
+.foot-col1,
+.foot-col2,
+.foot-col3 {
+  flex: 30%;
+  display: inline-block;
+}
+
+.foot-col2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.foot-col3 a {
+  color: white;
+  text-align: center;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.foot-col1 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col2 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col3 {
+  margin-left: 120px;
+  margin-right: 120px;
+}

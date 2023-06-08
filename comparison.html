@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html form</title>
+    <link rel="stylesheet" id="theme-changer" href="comparison-style1.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sophia">
+  </head>
+  <script src="script.js"></script>
+
+  <body>
+    
+    <div class="header" id="header">
+      <h1>future cars</h1>
+      <p>fast cars for fast arrival</p>
+    </div>
+  
+    <div class="navbar" id="navbar">
+      <a href="http://127.0.0.1:5500/index.html">Home</a>
+      <a href="http://127.0.0.1:5500/news.html">News</a>
+      <a href="http://127.0.0.1:5500/ourcars.html">our cars</a>
+      <div class="dropdown">
+        <button class="dropbtn">services 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="http://127.0.0.1:5500/howtochooseyourcar.html">how to choose</a>
+          <a href="http://127.0.0.1:5500/simulation.html">simulation</a>
+          <a href="http://127.0.0.1:5500/treatments.html">buy !</a>
+          <a href="http://127.0.0.1:5500/comparison.html">compare</a>
+        </div>
+      </div> 
+      <script>
+        var style_name = 'comparison-style'; 
+      </script>
+      <button id="dark-light-btn" onclick="change_theme(style_name)">theme 2</button>
+    </div>
+
+<div class="content"> 
+    <div  class="comparison-form">
+      <div class="h1"> 
+        <h1> Let's compare... </h1>  
+     </div>
+       <form>
+        <label for="select make">Select make </label>
+        <select>
+          <option value="">Select Make</option>
+          <script>	
+            var data=["Alfa Romeo","Aston Martin","Audi","Bentley","BMW","Brilliance","Fiat","Dorcen","Geely","Karry","Jeep","Lada","Lexus"
+          ,"proton","renault","senova","subaru","Suzuki","Zotye","Volvo","Volkswagen","soueast"];
+            for(var i = 0 ; i <data.length ; i++)
+              document.write(`<option>${data[i]}</option>`);
+            </script>
+        </select>
+                         <!-- MODEL -->
+        <label for="select model">Enter model </label>
+        <input type="text" name="select model" placeholder="Enter model...">
+         <!-- year -->
+        <label for="select year">Enter year </label>
+        <input type="text" name="select year" placeholder="Enter year...">
+        <!-- version -->
+        <label for="select version">Enter version </label>
+        <input type="text" name="select version" placeholder="Enter version...">
+       </form>
+    </div>
+    <form class="submit">
+      <input type="submit" value="compare">
+  
+     </form>
+    <div  class="comparison">
+      <form>
+       <label for="select make">Select make </label>
+       <select id="compare_make_id_0" ><option value="">Select Make</option>
+        <script>	
+          var data=["Alfa Romeo","Aston Martin","Audi","Bentley","BMW","Brilliance","Fiat","Dorcen","Geely","Karry","Jeep","Lada","Lexus"
+        ,"proton","renault","senova","subaru","Suzuki","Zotye","Volvo","Volkswagen","soueast"];
+          for(var i = 0 ; i <data.length ; i++)
+            document.write(`<option>${data[i]}</option>`);
+          </script>
+         </select>
+                        <!-- MODEL -->
+       <label for="select model">Enter model </label>
+       <input type="text" name="select model" placeholder="Enter model...">
+        <!-- year -->
+       <label for="select year">Enter year </label>
+       <input type="text" name="select year" placeholder="Enter year...">
+       <!-- version -->
+       <label for="select version">Enter version </label>
+       <input type="text" name="select version" placeholder=" version...">
+
+      
+      </form>
+   </div>
+  </div> 
+  
+  <footer id="footer">
+    <div class="foot-row">
+      <div class="foot-col1">
+        <h4>Copyright © Your Website 2021</h4>
+      </div>
+      <div class="foot-col2">
+        <a href="https://www.facebook.com/"><img src="facebookpng.png"></a>
+        <a href="https://www.instagram.com/"><img src="Instagram.png"></a>
+        <a href="https://twitter.com/home"><img src="twitter.png"></a>
+      </div>
+      <div class="foot-col3">
+        <a href="http://127.0.0.1:5500/aboutus.html">about us</a>
+      <a href="http://127.0.0.1:5500/feedback.html">feed back</a>
+      <a href="http://127.0.0.1:5500/signup.html">sign up</a>
+      </div>
+    </div>
+    </footer>
+      
+  </body>
+</html>

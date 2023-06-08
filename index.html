@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" id="theme-changer" href="home-style1.css"/>
+</head>
+<script src="script.js"></script>
+<body>
+  
+
+  <div class="header" id="header">
+    <h1>future cars</h1>
+    <p>fast cars for fast arrival</p>
+  </div>
+
+  <div class="navbar" id="navbar">
+    <a href="http://127.0.0.1:5500/index.html">Home</a>
+    <a href="http://127.0.0.1:5500/news.html">News</a>
+    <a href="http://127.0.0.1:5500/ourcars.html">our cars</a>
+    <div class="dropdown">
+      <button class="dropbtn">services 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="http://127.0.0.1:5500/howtochooseyourcar.html">how to choose</a>
+        <a href="http://127.0.0.1:5500/simulation.html">simulation</a>
+        <a href="http://127.0.0.1:5500/treatments.html">buy !</a>
+        <a href="http://127.0.0.1:5500/comparison.html">compare</a>
+      </div>
+    </div> 
+    <script>
+      var style_name = 'home-style';
+    </script>
+    <button id="dark-light-btn" onclick="change_theme(style_name)">theme 2</button>
+    <div class="login-container">
+      <form action="/action_page.php" >
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="text" placeholder="Password" name="Password">
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+  </div>
+
+<div class="banner">
+  <video autoplay muted loop>
+    <source src="highway-loop.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+    <h1> Welcome to our collection of cars</h1>
+    <p>Driving a car is important for people in general because it provides status and the opportunity for personal control and autonomy. In sparsely populated areas, owning a car is even more important, since it provides the only opportunity for travelling long distances due to a lack of public transport</p>
+  </div>
+</div>
+
+
+<footer id="footer">
+  <div class="foot-row">
+    <div class="foot-col1">
+      <h4>Copyright © Your Website 2021</h4>
+    </div>
+    <div class="foot-col2">
+      <a href="https://www.facebook.com/"><img src="facebookpng.png"></a>
+      <a href="https://www.instagram.com/"><img src="Instagram.png"></a>
+      <a href="https://twitter.com/home"><img src="twitter.png"></a>
+    </div>
+    <div class="foot-col3">
+      <a href="http://127.0.0.1:5500/aboutus.html">about us</a>
+      <a href="http://127.0.0.1:5500/feedback.html">feed back</a>
+      <a href="http://127.0.0.1:5500/signup.html">sign up</a>
+    </div>
+  </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+/* Header */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #418c94;
+  color: white;
+  height: 200px;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #a6dcef;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.h1 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  background: #468197;
+  text-align: center;
+  font-size: 100%;
+  border-radius: 15px;
+  margin-left: 50px;
+  width: 900px;
+}
+
+.continar h2 {
+  color: white;
+  background: #468197;
+  width: 400px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 3px;
+  font-size: 25px;
+}
+
+.continar h3 {
+  color: white;
+  background: #468197;
+  width: 400px;
+  border-radius: 15px;
+  font-size: 25px;
+  text-align: center;
+  padding: 3px;
+}
+
+.continar h4 {
+  color: white;
+  background: #468197;
+  width: 400px;
+  border-radius: 15px;
+  font-size: 25px;
+  text-align: center;
+  padding: 3px;
+}
+
+p {
+  font-family: initial;
+  font-size: 100%;
+}
+
+body {
+  background-color: #ddf3f5;
+  height: 4000px;
+  margin: 0;
+}
+
+.continar {
+  width: 1170px;
+  margin: auto;
+  background-color: #ddf3f5;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*end main relze */
+/* footer */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #a6dcef;
+}
+
+.foot-row {
+  padding: 10px 20px 5px 20px;
+  width: 100%;
+}
+
+.foot-col1,
+.foot-col2,
+.foot-col3 {
+  flex: 30%;
+  display: inline-block;
+}
+
+.foot-col2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.foot-col3 a {
+  color: white;
+  text-align: center;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.foot-col1 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col2 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.foot-col3 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.pargraph-with-number {
+  width: 700px;
+}
+
+.number {
+  font-size: 30px;
+  padding: 10px;
+  height: 20px;
+  color: #08090a;
+}
